@@ -563,7 +563,7 @@ class VNA(QMainWindow, Ui_VNA):
     self.set_phase2(self.phase2Value.value())
     self.set_level1(self.level1Value.value())
     self.set_level2(self.level2Value.value())
-    self.set_gpio(1)
+    self.set_gpio(0)
     self.connectButton.setText('Disconnect')
     self.connectButton.setEnabled(True)
     self.set_enabled(True)
